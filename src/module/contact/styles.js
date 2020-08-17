@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
   position: relative;
   width: 100%;
   /* height: 100vh; */
-  background: ${(props) => props.theme.colors.white};
+  background: #f9fbff;
 `;
 
 export const PrincipalContainer = styled.div`
@@ -45,7 +45,7 @@ export const TextX = styled.div`
   font-family: "Montserrat", sans-serif;
   margin-top: 80px;
   color: ${(props) => props.theme.colors.black};
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 600;
 `;
 
@@ -59,8 +59,6 @@ export const ContainerCards = styled.div`
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
-  margin-top: 20px;
-
   ${width}
   height: 100%;
   justify-content: space-around;
@@ -74,7 +72,6 @@ export const PlanCard = styled.div`
   position: relative;
   width: 300px;
   height: 700px;
-  /* background-image: -webkit-linear-gradient(90deg, #9c8df1, #7f29f0); */
   ${background}
   margin-top: 40px;
   ${space};
@@ -93,19 +90,13 @@ export const PlandCardContainer = styled.div`
   padding: 30px;
   align-items: center;
 `;
-export const Title = styled.div`
+export const Title = styled.h3`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 25px;
-  height: 40px;
-  width: 77%;
-  border-radius: 4px;
-  ${background};
+  margin-left: 20px;
   font-family: "Montserrat", sans-serif;
-  font-weight: regular;
+  font-weight: 500;
   font-size: 1rem;
-  color: #ffffff;
+  color: ${(props) => props.theme.colors.primary};
 `;
 
 export const TitleX = styled.div`
@@ -127,9 +118,17 @@ export const TitleX = styled.div`
 export const P = styled.div`
   font-family: "Montserrat", sans-serif;
   font-weight: medium;
-  font-size: 1rem;
+  font-size: 0.95rem;
   margin-top: 5px;
-  color: #ffffff;
+  color: ${(props) => props.theme.colors.semiblack};
+  max-width: 100%;
+`;
+export const Span = styled.span`
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  font-size: 0.95rem;
+  margin-top: 5px;
+  color: ${(props) => props.theme.colors.primary};
   max-width: 100%;
 `;
 
@@ -153,30 +152,57 @@ export const WhiteContainer = styled.div`
   padding: 30px;
   align-items: center;
 `;
+export const Circle = styled.div`
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 10px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background: #000000;
+`;
+export const ContainerText = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+`;
+export const ContainerTitle = styled.div`
+  display: flex;
+justify-content:flex-start;
+align-items:center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  margin-bottom:15px;
+  /* background: ${(props) => props.bg}; */
+`;
 
 export const EspecialCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
-  width: 300px;
-  height: 240px;
+  padding: 50px 40px;
+  margin-right: 30px;
+  box-sizing: border-box;
+${(props) =>
+  props.cursor &&
+  css`
+    cursor: pointer;
+  `}
+  ${width}
+  ${height}
   background: white;
   margin-top: 20px;
-  border-radius: 30px;
-  transition: background 0.4s;
-  &:hover p {
-    color: ${(props) => props.theme.colors.white};
-  }
-  &:hover h2 {
-    color: ${(props) => props.theme.colors.white};
-  }
+  transition: transform 0.4s;
+  border-radius: 20px;
+  box-shadow: 0 12px 67px rgba(0, 0, 0, 0.06);
+
   &:hover {
-    background: ${(props) => props.theme.colors.primary};
-  }
-  &:hover img {
-    transform: scale(1.3);
+    transform: scale(1.07);
   }
 `;
 

@@ -4,6 +4,8 @@ import Services from "../services";
 import Plans from "../plans";
 import callcenter from "../../assets/CALLCENTER.svg";
 import Partners from "../partners";
+import Contact from "../contact";
+import Footer from "../footer";
 import {
   Wrapper,
   SecondContainer,
@@ -82,6 +84,8 @@ const Home = () => (
     <Plans />
 
     <Partners />
+    <Contact />
+    <Footer />
   </HomeContainer>
 );
 

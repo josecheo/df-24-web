@@ -1,6 +1,5 @@
 import React from "react";
 import LogoBlanco from "../../assets/LogoBlanco.svg";
-import Menu from "../menu";
 import NavLink from "../navlink";
 import { Wrapper, Nav } from "./styles";
 import { ServicesCards, SupportCards } from "./data";

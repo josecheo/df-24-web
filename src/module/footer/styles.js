@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   position: relative;
   width: 100%;
   height: 300px;
-  background: rgba(255, 127, 0, 1);
+  background: #0d1e30;
 `;
 export const Shape = styled.div`
   position: absolute;
