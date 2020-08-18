@@ -6,6 +6,7 @@ const Button = (props) => {
 
   return (
     <Wrapper
+      {...props}
       mt={mt}
       ml={ml}
       width={width}

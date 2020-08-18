@@ -14,7 +14,7 @@ import {
   justifyContent,
 } from "styled-system";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.button`
   display: flex;
   width: ${(props) => props.width};
   height: ${(props) => props.height};

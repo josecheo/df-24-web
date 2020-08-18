@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   position: relative;
   width: 100%;
   height: 300px;
-  background: rgba(255, 127, 0, 1);
+  background: #ffffff;
 `;
 export const Shape = styled.div`
   position: absolute;
@@ -52,12 +52,17 @@ export const Line = styled.div`
 `;
 export const ContainerCards = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  padding: 30px;
-  margin-top: 20px;
-  width: 100%;
-  height: 100%;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  z-index: 20;
+  width: 80%;
+  height: 100%;
+  overflow-y: scroll;
+`;
+export const Card = styled.div`
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 60px;
 `;

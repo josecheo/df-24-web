@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
   position: relative;
   width: 100%;
   /* height: 100vh; */
-  background: #f9fbff;
+  background: #ffffff;
 `;
 
 export const PrincipalContainer = styled.div`
@@ -41,14 +41,6 @@ export const Text = styled.div`
   font-weight: 600;
 `;
 
-export const TextX = styled.div`
-  font-family: "Montserrat", sans-serif;
-  margin-top: 80px;
-  color: ${(props) => props.theme.colors.black};
-  font-size: 2rem;
-  font-weight: 600;
-`;
-
 export const Line = styled.div`
   display: flex;
   width: 104px;
@@ -65,31 +57,6 @@ export const ContainerCards = styled.div`
   align-items: center;
 `;
 
-export const PlanCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  position: relative;
-  width: 300px;
-  height: 700px;
-  ${background}
-  margin-top: 40px;
-  ${space};
-  box-shadow: 10px 10px 21px -6px rgba(0, 0, 0, 0.42);
-  transition: box-shadow 0.4s;
-  &:hover {
-    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.32);
-  }
-`;
-export const PlandCardContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  padding: 30px;
-  align-items: center;
-`;
 export const Title = styled.h3`
   display: flex;
   margin-left: 20px;
@@ -97,22 +64,6 @@ export const Title = styled.h3`
   font-weight: 500;
   font-size: 1rem;
   color: ${(props) => props.theme.colors.primary};
-`;
-
-export const TitleX = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 15px;
-  height: 30px;
-  width: 80%;
-  border-radius: 4px;
-  background: #ffffff;
-  font-family: "Montserrat", sans-serif;
-  box-shadow: 5px 5px 21px -6px rgba(0, 0, 0, 0.42);
-  font-weight: regular;
-  font-size: 0.9rem;
-  color: #000000;
 `;
 
 export const P = styled.div`
@@ -132,26 +83,6 @@ export const Span = styled.span`
   max-width: 100%;
 `;
 
-export const Shape = styled.div`
-  position: absolute;
-  top: 158px;
-  width: 0;
-  height: 0;
-  border-left: 300px solid transparent;
-  border-top: 50px solid transparent;
-  border-bottom: 95px solid #fff;
-  z-index: 1290;
-`;
-
-export const WhiteContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background: #ffffff;
-  padding: 30px;
-  align-items: center;
-`;
 export const Circle = styled.div`
   display: flex;
   justify-self: center;
@@ -203,28 +134,54 @@ ${(props) =>
 
   &:hover {
     transform: scale(1.07);
+    
+  }
+    &:hover #as {
+     background: ${(props) => props.theme.colors.primary};
   }
 `;
 
-export const EspecialText = styled.h2`
-  transition: color 0.4s;
-  font-family: "Montserrat", sans-serif;
-  color: ${(props) => props.theme.colors.semiblack};
-  font-size: 1rem;
-  font-weight: 600;
-`;
-export const EspecialP = styled.p`
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium;
-  font-size: 1rem;
-  transition: color 0.4s;
-  text-align: center;
-  color: ${(props) => props.theme.colors.semiblack};
-  max-width: 100%;
+export const SecondContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
-export const EspecialImg = styled.img`
-  width: 60px;
-  transition: transform 0.4s;
-  margin-bottom: 20px;
+export const CallcenterText = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 40px;
+`;
+
+export const H4 = styled.span`
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  color: #8493b4;
+`;
+
+export const H5 = styled.span`
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #8493b4;
+`;
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 700px;
+  height: 400px;
+  box-shadow: 10px 10px 21px -6px rgba(0, 0, 0, 0.42);
+  padding: 40px;
+`;
+
+export const Input = styled.input`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
 `;
