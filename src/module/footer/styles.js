@@ -3,30 +3,109 @@ import styled, { css } from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 300px;
+  height: 400px;
   background: #0d1e30;
-`;
-export const Shape = styled.div`
-  position: absolute;
-  opacity: 0.2;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 99.8vw solid transparent;
-  border-top: 50px solid transparent;
-  border-bottom: 600px solid #ebf2f9;
-  z-index: 1;
+  padding: 30px;
 `;
 
 export const PrincipalContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 30px;
   align-items: center;
+  width: 70%;
+  height: 100%;
+`;
+export const Img = styled.img`
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+`;
+export const ImgS = styled.img`
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.4s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+`;
+
+export const MiniContainer = styled.div`
+  display: flex;
+  width: 100%;
+  padding: 5px 50px;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+  color: ${(props) => props.theme.colors.white};
+  font-size: 0.9rem;
+  font-weight: 400;
+  border-radius: 10px;
+  &:hover {
+    background: ${(props) => props.theme.colors.primary};
+  }
+`;
+export const MiniContainerDirection = styled.div`
+  display: flex;
+  width: 100%;
+  padding: 5px 50px;
+  height: 100px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+  color: ${(props) => props.theme.colors.white};
+  font-size: 0.9rem;
+  font-weight: 400;
+  border-radius: 10px;
+  &:hover {
+    background: ${(props) => props.theme.colors.primary};
+  }
+`;
+export const Empresa = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
   width: 100%;
   height: 100%;
-  background: ${(props) => props.theme.colors.gray};
+`;
+export const RedSocia = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+`;
+
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+`;
+export const Span = styled.span`
+  font-family: "Montserrat", sans-serif;
+  color: ${(props) => props.theme.colors.white};
+  font-size: 0.9rem;
+  font-weight: 400;
+`;
+
+export const SpanBlack = styled.div`
+  font-family: "Montserrat", sans-serif;
+  color: ${(props) => props.theme.colors.white};
+  font-size: 0.97rem;
+  font-weight: 600;
 `;
 
 export const Text = styled.div`
