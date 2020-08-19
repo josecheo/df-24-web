@@ -39,7 +39,6 @@ const Home = () => {
   }, [animate]);
   return (
     <HomeContainer>
-      {console.log("ANIMATE", animate)}
       <Wrapper>
         <PrincipalContainer>
           <Header />

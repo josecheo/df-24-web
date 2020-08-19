@@ -13,7 +13,7 @@ import {
 } from "./styles";
 
 const Services = () => (
-  <Wrapper>
+  <Wrapper id="services">
     <Shape />
     <PrincipalContainer>
       <Text>Nuestros Servicios</Text>

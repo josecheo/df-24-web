@@ -9,9 +9,16 @@ const Header = () => {
       <img alt="LOGO" src={LogoBlanco} />
       <Nav>
         <NavLink text="Home" />
-        <NavLink menu data={ServicesCards} text="Servicios" />
-        <NavLink mr text="Planes" />
-        <NavLink text="Contacto" />
+        <a href="#services">
+          <NavLink menu data={ServicesCards} text="Servicios" />
+        </a>
+        <a href="#planes">
+          <NavLink mr text="Planes" />
+        </a>
+        <a href="#contacto">
+          <NavLink text="Contacto" />
+        </a>
+
         <NavLink bg data={SupportCards} menu text="Soporte" />
       </Nav>
     </Wrapper>

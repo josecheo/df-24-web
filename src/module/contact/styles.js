@@ -14,10 +14,10 @@ import {
   justifyContent,
 } from "styled-system";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   display: flex;
   position: relative;
-  width: 100%;
+  width: 100vw;
   /* height: 100vh; */
   background: #ffffff;
 `;
@@ -29,8 +29,8 @@ export const PrincipalContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  margin-top: 60px;
-  margin-bottom: 130px;
+  /* margin-top: 60px; */
+  /* margin-bottom: 130px; */
   background: ${(props) => props.theme.colors.gray};
 `;
 

@@ -35,7 +35,7 @@ const Plans = () => {
   const [hoverBlock, setHoverBlock] = useState(false);
   const [hoverTrusted, setHoverTrusted] = useState(false);
   return (
-    <Wrapper>
+    <Wrapper id="planes">
       <PrincipalContainer>
         <Text>Infraestructura cloud </Text>
         <P>Los precios son de acuerdo al requerimiento del cliente.</P>

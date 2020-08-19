@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     border-bottom: 10px solid #ffffff;
   }
   display: flex;
-  width: 320px;
+  width: 460px;
   position: absolute;
   background: #ffffff;
   top: 42px;

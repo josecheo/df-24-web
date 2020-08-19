@@ -15,7 +15,9 @@ const elements = css`
   * {
     box-sizing: border-box;
   }
-  html,
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     font-family: Montserrat-Medium, sans-serif;
     font-size: 16px;

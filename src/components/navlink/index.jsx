@@ -28,6 +28,7 @@ const NavLink = (props) => {
         <Span showMenu={showMenu} onMouseOver={handleShowMenu}>
           {text}
         </Span>
+
         {menu && <Arrow showMenu={showMenu}></Arrow>}
         {menu && showMenu && <Menu data={data} animateHidden={animateHidden} />}
       </Wrapper>

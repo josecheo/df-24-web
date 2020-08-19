@@ -19,11 +19,12 @@ import {
 export const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 export const Wrapper = styled.div`
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: relative;
   background: ${(props) => props.theme.colors.primary};
@@ -34,7 +35,7 @@ export const Shape = styled.div`
   bottom: 0;
   width: 0;
   height: 0;
-  border-left: 99.8vw solid transparent;
+  border-left: 100vw solid transparent;
   border-top: 50px solid transparent;
   border-bottom: 395px solid #fff;
   z-index: 1;

@@ -1,9 +1,9 @@
 import styled, { css } from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   display: flex;
   position: relative;
-  width: 100%;
+  width: 100vw;
   /* height: 100vh; */
   background: ${(props) => props.theme.colors.white};
 `;
@@ -13,7 +13,7 @@ export const Shape = styled.div`
   bottom: 0;
   width: 0;
   height: 0;
-  border-left: 99.8vw solid transparent;
+  border-left: 100vw solid transparent;
   border-top: 50px solid transparent;
   border-bottom: 600px solid #ebf2f9;
   z-index: 1;

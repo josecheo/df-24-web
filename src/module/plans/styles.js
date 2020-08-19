@@ -14,10 +14,10 @@ import {
   justifyContent,
 } from "styled-system";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   display: flex;
   position: relative;
-  width: 100%;
+  width: 100vw;
   /* height: 100vh; */
   background: #ffffff;
 `;

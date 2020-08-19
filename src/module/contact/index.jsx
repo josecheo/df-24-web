@@ -28,7 +28,7 @@ import {
 
 const Contact = () => {
   return (
-    <Wrapper>
+    <Wrapper id="contacto">
       <PrincipalContainer>
         <Text>¿Como podria contactarnos?</Text>
         <Line />
