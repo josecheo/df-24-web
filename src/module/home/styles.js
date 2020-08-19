@@ -1,4 +1,20 @@
 import styled, { css } from "styled-components";
+import callcenter from "../../assets/CALLCENTER.svg";
+import PcImg from "../../assets/PcImg.svg";
+import {
+  color,
+  borderRadius,
+  margin,
+  layout,
+  width,
+  fontSize,
+  fontWeight,
+  height,
+  background,
+  space,
+  typography,
+  justifyContent,
+} from "styled-system";
 
 export const HomeContainer = styled.div`
   display: flex;
@@ -50,10 +66,48 @@ export const SecondContainer = styled.div`
 `;
 export const SecondContainerImg = styled.div`
   display: flex;
+  background-image: url(${(props) => props.bg});
+  background-size: contain;
+  background-repeat: no-repeat;
   flex-direction: column;
-  padding: 8px;
   align-items: flex-end;
-  width: 100%;
+  width: 90%;
+  animation-name: aparecer;
+  animation-duration: 3s;
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+`;
+
+export const SecondContainerImgPc = styled.div`
+  display: flex;
+  background-image: url(${(props) => props.bg});
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 90%;
+  animation-name: aparecer;
+  animation-duration: 3s;
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 `;
 
 export const ContainerText = styled.div`

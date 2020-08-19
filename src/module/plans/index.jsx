@@ -40,7 +40,7 @@ const Plans = () => {
         <Text>Infraestructura cloud </Text>
         <P>Los precios son de acuerdo al requerimiento del cliente.</P>
         <Line />
-        <ContainerCards width="70%">
+        <ContainerCards width="90%">
           {/* PLAN BASICO */}
           <PlanCard background="-webkit-linear-gradient(90deg, #ffba75, #ff7f00)">
             <PlandCardContainer>

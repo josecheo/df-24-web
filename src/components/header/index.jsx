@@ -10,7 +10,6 @@ const Header = () => {
       <Nav>
         <NavLink text="Home" />
         <NavLink menu data={ServicesCards} text="Servicios" />
-        <NavLink menu data={[]} text="Productos" />
         <NavLink mr text="Planes" />
         <NavLink text="Contacto" />
         <NavLink bg data={SupportCards} menu text="Soporte" />

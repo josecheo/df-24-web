@@ -60,10 +60,9 @@ export const ContainerCards = styled.div`
   flex-wrap: wrap;
   padding: 30px;
   margin-top: 20px;
-
   ${width}
   height: 100%;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 `;
 
@@ -77,6 +76,7 @@ export const PlanCard = styled.div`
   /* background-image: -webkit-linear-gradient(90deg, #9c8df1, #7f29f0); */
   ${background}
   margin-top: 40px;
+  margin-right: 30px;
   ${space};
   box-shadow: 10px 10px 21px -6px rgba(0, 0, 0, 0.42);
   transition: box-shadow 0.4s;

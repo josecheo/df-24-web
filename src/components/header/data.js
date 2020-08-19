@@ -49,19 +49,19 @@ export const ServicesCards = [
 
 export const SupportCards = [
   {
-    Title: "01 745 9654 ",
+    Title: "01 701 3658",
     Description: "",
     icoColor: "transparent",
     ico: phone,
   },
   {
-    Title: "+51 918 103 451",
+    Title: "+51 902 753 912",
     Description: "",
     icoColor: "transparent",
     ico: cellphone,
   },
   {
-    Title: "support@df24.pe",
+    Title: "ventas@24d.pe",
     Description: "",
     icoColor: "transparent",
     ico: mail,

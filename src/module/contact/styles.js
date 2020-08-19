@@ -173,7 +173,7 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 700px;
+  width: 110%;
   height: 400px;
   box-shadow: 10px 10px 21px -6px rgba(0, 0, 0, 0.42);
   padding: 40px;
