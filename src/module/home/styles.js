@@ -28,6 +28,9 @@ export const Wrapper = styled.div`
   height: 100vh;
   position: relative;
   background: ${(props) => props.theme.colors.primary};
+  @media (max-width: 768px) {
+    height: 100%;
+  }
 `;
 
 export const Shape = styled.div`
@@ -39,6 +42,12 @@ export const Shape = styled.div`
   border-top: 50px solid transparent;
   border-bottom: 395px solid #fff;
   z-index: 1;
+  @media (max-width: 1024px) {
+    border-bottom: 325px solid #fff;
+  }
+  @media (max-width: 768px) {
+    border-bottom: 605px solid #fff;
+  }
 `;
 
 export const PrincipalContainer = styled.div`
@@ -46,22 +55,30 @@ export const PrincipalContainer = styled.div`
   width: 100%;
   grid-template-rows: 80px 1fr;
   grid-gap: 8px;
-  padding: 30px 120px 0px 120px;
+  padding: 30px;
   z-index: 210;
+  /* @media (max-width: 768px) {
+    grid-template-rows: 80px 1fr 1fr;
+  } */
 `;
 
 export const Container = styled.div`
   display: grid;
   grid-gap: 8px;
-  padding-top: 90px;
   grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 90vh 70vh;
+  }
 `;
 
 export const SecondContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 8px;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
 `;
@@ -72,7 +89,8 @@ export const SecondContainerImg = styled.div`
   background-repeat: no-repeat;
   flex-direction: column;
   align-items: flex-end;
-  width: 90%;
+  margin-top: 90px;
+  width: 100%;
   animation-name: aparecer;
   animation-duration: 3s;
   @keyframes aparecer {
@@ -86,6 +104,9 @@ export const SecondContainerImg = styled.div`
       transform: scale(1);
     }
   }
+  @media (max-width: 768px) {
+    margin-top: 10px;
+  }
 `;
 
 export const SecondContainerImgPc = styled.div`
@@ -95,7 +116,8 @@ export const SecondContainerImgPc = styled.div`
   background-repeat: no-repeat;
   flex-direction: column;
   align-items: flex-end;
-  width: 90%;
+  margin-top: 90px;
+  width: 100%;
   animation-name: aparecer;
   animation-duration: 3s;
   @keyframes aparecer {
@@ -108,6 +130,9 @@ export const SecondContainerImgPc = styled.div`
       opacity: 1;
       transform: scale(1);
     }
+  }
+  @media (max-width: 768px) {
+    margin-top: 10px;
   }
 `;
 
@@ -120,21 +145,38 @@ export const ContainerText = styled.div`
 export const Text = styled.h1`
   font-family: "Montserrat", sans-serif;
   color: ${(props) => props.theme.colors.white};
-  font-size: 3.9rem;
+  font-size: 3.2rem;
   font-weight: 600;
+  @media (max-width: 1440px) {
+    font-size: 2rem;
+  }
+  @media (max-width: 768px) {
+    font-size: 4rem;
+    margin-left: 50px;
+  }
 `;
 
 export const Spam = styled.span`
   font-family: "Montserrat", sans-serif;
   color: ${(props) => props.theme.colors.yellow};
-  font-size: 3.9rem;
+  font-size: 3.2rem;
   font-weight: 600;
+  @media (max-width: 1440px) {
+    font-size: 2rem;
+  }
+  @media (max-width: 768px) {
+    font-size: 4rem;
+  }
 `;
+
 export const ContainerButtons = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+  @media (max-width: 768px) {
+    margin-left: 200px;
+  }
 `;
 
 export const TapMessage = styled.div`
@@ -157,6 +199,12 @@ export const CallcenterText = styled.div`
   margin-left: 150px;
   width: 80%;
   padding: 40px;
+  @media (max-width: 768px) {
+    margin-left: 0px;
+  }
+  @media (max-width: 1024px) {
+    margin-left: 20px;
+  }
 `;
 
 export const H4 = styled.span`

@@ -19,6 +19,13 @@ export const PrincipalContainer = styled.div`
   align-items: center;
   width: 70%;
   height: 100%;
+  @media (max-width: 1440px) {
+    width: 85%;
+  }
+  @media (max-width: 1024px) {
+    width: 100%;
+    padding: 20px;
+  }
 `;
 export const Img = styled.img`
   width: 20px;
@@ -83,6 +90,9 @@ export const RedSocia = styled.div`
   flex-direction: column;
   width: 100%;
   height: 70%;
+  @media (max-width: 1024px) {
+    align-items: center;
+  }
 `;
 
 export const Container = styled.div`

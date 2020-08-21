@@ -20,7 +20,7 @@ const elements = css`
   }
   body {
     font-family: Montserrat-Medium, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     font-style: normal;
     line-height: 1.25;

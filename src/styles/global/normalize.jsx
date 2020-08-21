@@ -1,4 +1,4 @@
-import { css } from 'styled-components';
+import { css } from "styled-components";
 
 const normalize = css`
   html {
@@ -9,6 +9,7 @@ const normalize = css`
 
   body {
     margin: 0;
+    font-size: 14px;
   }
 
   article,
@@ -237,7 +238,7 @@ const normalize = css`
   }
 
   .icon-eye:hover {
-    fill:#40bbf5;
+    fill: #40bbf5;
   }
 `;
 

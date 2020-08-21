@@ -14,11 +14,13 @@ export const Wrapper = styled.div`
     border-bottom: 10px solid #ffffff;
   }
   display: flex;
-  width: 460px;
+  width: 420px;
   position: absolute;
   background: #ffffff;
   top: 42px;
   right: 0px;
+  z-index: 200;
+
   border-radius: 8px;
   animation-duration: 0.3s;
   animation-name: aparecer;

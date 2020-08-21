@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Wrapper>
       <img alt="LOGO" src={LogoBlanco} />
-      <Nav>
+      {/* <Nav>
         <NavLink text="Home" />
         <a href="#services">
           <NavLink menu data={ServicesCards} text="Servicios" />
@@ -20,7 +20,7 @@ const Header = () => {
         </a>
 
         <NavLink bg data={SupportCards} menu text="Soporte" />
-      </Nav>
+      </Nav> */}
     </Wrapper>
   );
 };
