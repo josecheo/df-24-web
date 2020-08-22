@@ -20,7 +20,6 @@ export const Wrapper = styled.div`
   top: 42px;
   right: 0px;
   z-index: 200;
-
   border-radius: 8px;
   animation-duration: 0.3s;
   animation-name: aparecer;
@@ -55,6 +54,9 @@ export const Wrapper = styled.div`
         }
       }
     `};
+  @media (max-width: 425px) {
+    width: 320px;
+  }
 `;
 
 export const Container = styled.div`

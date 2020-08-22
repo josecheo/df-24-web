@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
   position: relative;
   align-items: center;
   justify-content: center;
-
   ${(props) =>
     props.bg &&
     css`
@@ -19,6 +18,10 @@ export const Wrapper = styled.div`
     css`
       margin-right: 70px;
     `};
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-right: 20px;
+  }
 `;
 export const Span = styled.span`
   font-family: "Montserrat", sans-serif;

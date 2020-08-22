@@ -19,7 +19,6 @@ import {
 export const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 `;
 
 export const Wrapper = styled.div`
@@ -62,6 +61,9 @@ export const PrincipalContainer = styled.div`
   z-index: 210;
   @media (max-width: 425px) {
     height: 100vh;
+  }
+  @media (max-width: 320px) {
+    padding: 10px;
   }
 `;
 
@@ -183,11 +185,13 @@ export const Spam = styled.span`
   }
   @media (max-width: 768px) {
     font-size: 4rem;
+    /* margin-left: 50px; */
   }
   @media (max-width: 425px) {
     font-size: 2.5rem;
+    margin-left: 0px;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 375px) {
     font-size: 2.2rem;
   }
   @media (max-width: 320px) {
