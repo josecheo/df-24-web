@@ -19,6 +19,7 @@ import {
 export const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 export const Wrapper = styled.div`
