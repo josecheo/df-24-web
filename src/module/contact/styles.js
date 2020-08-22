@@ -144,6 +144,12 @@ ${(props) =>
   }
     @media (max-width: 425px) {
 margin-right:0px;
+
+  }
+      @media (max-width: 320px) {
+width:300px;
+height:360px;
+
   }
 `;
 
@@ -183,6 +189,10 @@ export const Form = styled.form`
   height: 400px;
   box-shadow: 10px 10px 21px -6px rgba(0, 0, 0, 0.42);
   padding: 40px;
+  @media (max-width: 320px) {
+    width: 95%;
+    height: 600px;
+  }
 `;
 
 export const Input = styled.input`

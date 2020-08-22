@@ -61,6 +61,10 @@ export const MiniContainer = styled.div`
   &:hover {
     background: ${(props) => props.theme.colors.primary};
   }
+  @media (max-width: 320px) {
+    padding: 10px;
+    font-size: 0.7rem;
+  }
 `;
 export const MiniContainerDirection = styled.div`
   display: flex;
@@ -76,6 +80,10 @@ export const MiniContainerDirection = styled.div`
   border-radius: 10px;
   &:hover {
     background: ${(props) => props.theme.colors.primary};
+  }
+  @media (max-width: 320px) {
+    padding: 10px;
+    font-size: 0.7rem;
   }
 `;
 export const Empresa = styled.div`
@@ -115,6 +123,9 @@ export const Span = styled.span`
   color: ${(props) => props.theme.colors.white};
   font-size: 0.9rem;
   font-weight: 400;
+  @media (max-width: 320px) {
+    font-size: 0.6rem;
+  }
 `;
 
 export const SpanBlack = styled.div`

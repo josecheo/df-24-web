@@ -32,6 +32,9 @@ export const Text = styled.div`
     text-align: center;
     font-size: 2.7rem;
   }
+  @media (max-width: 320px) {
+    font-size: 2rem;
+  }
 `;
 
 export const P = styled.div`

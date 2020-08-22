@@ -46,6 +46,9 @@ export const Text = styled.div`
   @media (max-width: 425px) {
     text-align: center;
   }
+  @media (max-width: 320px) {
+    font-size: 1.7rem;
+  }
 `;
 
 export const TextX = styled.div`
@@ -179,6 +182,9 @@ export const Shape = styled.div`
   z-index: 1290;
   @media (max-width: 375px) {
     border-left: 283px solid transparent;
+  }
+  @media (max-width: 320px) {
+    border-left: 234px solid transparent;
   }
 `;
 

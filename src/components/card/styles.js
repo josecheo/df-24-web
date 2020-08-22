@@ -57,6 +57,10 @@ export const Circle = styled.div`
     padding: 30px;
     height: 55%;
   }
+  @media (max-width: 320px) {
+    height: 44%;
+    padding: 15px;
+  }
 `;
 
 export const Info = styled.div`
