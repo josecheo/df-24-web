@@ -79,6 +79,9 @@ export const ContainerCards = styled.div`
     justify-content: center;
     align-items: center;
   }
+  @media (max-width: 425px) {
+    margin-top: 10px;
+  }
 `;
 
 export const PlanCard = styled.div`
@@ -101,6 +104,9 @@ export const PlanCard = styled.div`
   @media (max-width: 425px) {
     margin-right: 0px;
   }
+  /* @media (max-width: 425px) {
+    height: 900px;
+  } */
 `;
 export const PlandCardContainer = styled.div`
   display: flex;
@@ -124,6 +130,10 @@ export const Title = styled.div`
   font-weight: regular;
   font-size: 1rem;
   color: #ffffff;
+  @media (max-width: 425px) {
+    width: 100%;
+    /* font-size: 0.7rem; */
+  }
 `;
 
 export const TitleX = styled.div`
@@ -140,6 +150,10 @@ export const TitleX = styled.div`
   font-weight: regular;
   font-size: 0.9rem;
   color: #000000;
+  @media (max-width: 425px) {
+    width: 100%;
+    font-size: 0.7rem;
+  }
 `;
 
 export const P = styled.div`
@@ -149,6 +163,9 @@ export const P = styled.div`
   margin-top: 5px;
   color: #ffffff;
   max-width: 100%;
+  @media (max-width: 425px) {
+    text-align: center;
+  }
 `;
 
 export const Shape = styled.div`
@@ -160,6 +177,9 @@ export const Shape = styled.div`
   border-top: 50px solid transparent;
   border-bottom: 95px solid #fff;
   z-index: 1290;
+  @media (max-width: 375px) {
+    border-left: 283px solid transparent;
+  }
 `;
 
 export const WhiteContainer = styled.div`
@@ -204,6 +224,9 @@ export const EspecialText = styled.h2`
   color: ${(props) => props.theme.colors.semiblack};
   font-size: 1rem;
   font-weight: 600;
+  @media (max-width: 375px) {
+    text-align: center;
+  }
 `;
 export const EspecialP = styled.p`
   font-family: "Montserrat", sans-serif;
@@ -213,6 +236,9 @@ export const EspecialP = styled.p`
   text-align: center;
   color: ${(props) => props.theme.colors.semiblack};
   max-width: 100%;
+  @media (max-width: 375px) {
+    font-size: 0.7rem;
+  }
 `;
 
 export const EspecialImg = styled.img`

@@ -165,6 +165,9 @@ export const Text = styled.h1`
     font-size: 2.5rem;
     margin-left: 0px;
   }
+  @media (max-width: 425px) {
+    font-size: 2.2rem;
+  }
 `;
 
 export const Spam = styled.span`
@@ -180,6 +183,9 @@ export const Spam = styled.span`
   }
   @media (max-width: 425px) {
     font-size: 2.5rem;
+  }
+  @media (max-width: 425px) {
+    font-size: 2.2rem;
   }
 `;
 
