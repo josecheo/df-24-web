@@ -32,6 +32,10 @@ export const PrincipalContainer = styled.div`
   margin-top: 60px;
   margin-bottom: 130px;
   background: ${(props) => props.theme.colors.gray};
+  @media (max-width: 425px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const Text = styled.div`
@@ -39,6 +43,9 @@ export const Text = styled.div`
   color: ${(props) => props.theme.colors.black};
   font-size: 2rem;
   font-weight: 600;
+  @media (max-width: 425px) {
+    text-align: center;
+  }
 `;
 
 export const TextX = styled.div`
@@ -47,6 +54,9 @@ export const TextX = styled.div`
   color: ${(props) => props.theme.colors.black};
   font-size: 1.6rem;
   font-weight: 600;
+  @media (max-width: 425px) {
+    text-align: center;
+  }
 `;
 
 export const Line = styled.div`
@@ -64,6 +74,11 @@ export const ContainerCards = styled.div`
   height: 100%;
   justify-content: center;
   align-items: center;
+  @media (max-width: 425px) {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const PlanCard = styled.div`
@@ -82,6 +97,9 @@ export const PlanCard = styled.div`
   transition: box-shadow 0.4s;
   &:hover {
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.32);
+  }
+  @media (max-width: 425px) {
+    margin-right: 0px;
   }
 `;
 export const PlandCardContainer = styled.div`

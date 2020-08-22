@@ -28,6 +28,9 @@ export const Wrapper = styled.div`
   &:hover {
     transform: scale(1.08);
   }
+  @media (max-width: 425px) {
+    padding: 10px 10px 10px 0px;
+  }
 `;
 
 export const Container = styled.div`
@@ -50,6 +53,10 @@ export const Circle = styled.div`
   height: 85%;
   margin-left: -60px;
   background: ${(props) => props.bg};
+  @media (max-width: 425px) {
+    padding: 30px;
+    height: 55%;
+  }
 `;
 
 export const Info = styled.div`
@@ -72,6 +79,9 @@ export const Title = styled.div`
   font-size: 1rem;
   margin-top: 5px;
   margin-bottom: 15px;
+  @media (max-width: 425px) {
+    background: transparent;
+  }
 `;
 
 export const P = styled.div`
@@ -81,4 +91,7 @@ export const P = styled.div`
   margin-top: 5px;
   color: ${(props) => props.theme.colors.semiBlack};
   max-width: 100%;
+  @media (max-width: 425px) {
+    font-size: 0.7rem;
+  }
 `;

@@ -26,6 +26,9 @@ export const PrincipalContainer = styled.div`
     width: 100%;
     padding: 20px;
   }
+  @media (max-width: 425px) {
+    padding: 5px;
+  }
 `;
 export const Img = styled.img`
   width: 20px;
@@ -82,6 +85,9 @@ export const Empresa = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
+  @media (max-width: 425px) {
+    display: none;
+  }
 `;
 export const RedSocia = styled.div`
   display: flex;

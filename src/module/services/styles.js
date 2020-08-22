@@ -34,6 +34,9 @@ export const Text = styled.div`
   color: ${(props) => props.theme.colors.black};
   font-size: 3rem;
   font-weight: 600;
+  @media (max-width: 425px) {
+    text-align: center;
+  }
 `;
 
 export const P = styled.div`
@@ -42,6 +45,9 @@ export const P = styled.div`
   font-size: 1rem;
   margin-top: 5px;
   color: ${(props) => props.theme.colors.semiBlack};
+  @media (max-width: 425px) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const Line = styled.div`
@@ -60,4 +66,7 @@ export const ContainerCards = styled.div`
   justify-content: space-around;
   align-items: center;
   z-index: 20;
+  @media (max-width: 425px) {
+    padding: 5px;
+  }
 `;

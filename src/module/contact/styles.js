@@ -39,6 +39,9 @@ export const Text = styled.div`
   color: ${(props) => props.theme.colors.black};
   font-size: 2rem;
   font-weight: 600;
+  @media (max-width: 425px) {
+    text-align: center;
+  }
 `;
 
 export const Line = styled.div`
@@ -138,6 +141,9 @@ ${(props) =>
   }
     &:hover #as {
      background: ${(props) => props.theme.colors.primary};
+  }
+    @media (max-width: 425px) {
+margin-right:0px;
   }
 `;
 

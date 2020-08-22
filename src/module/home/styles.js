@@ -48,6 +48,9 @@ export const Shape = styled.div`
   @media (max-width: 768px) {
     border-bottom: 605px solid #fff;
   }
+  @media (max-width: 425px) {
+    border-bottom: 305px solid #fff;
+  }
 `;
 
 export const PrincipalContainer = styled.div`
@@ -57,9 +60,9 @@ export const PrincipalContainer = styled.div`
   grid-gap: 8px;
   padding: 30px;
   z-index: 210;
-  /* @media (max-width: 768px) {
-    grid-template-rows: 80px 1fr 1fr;
-  } */
+  @media (max-width: 425px) {
+    height: 100vh;
+  }
 `;
 
 export const Container = styled.div`
@@ -70,6 +73,10 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-template-rows: 90vh 70vh;
+  }
+  @media (max-width: 425px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 `;
 
@@ -154,6 +161,10 @@ export const Text = styled.h1`
     font-size: 4rem;
     margin-left: 50px;
   }
+  @media (max-width: 425px) {
+    font-size: 2.5rem;
+    margin-left: 0px;
+  }
 `;
 
 export const Spam = styled.span`
@@ -167,6 +178,9 @@ export const Spam = styled.span`
   @media (max-width: 768px) {
     font-size: 4rem;
   }
+  @media (max-width: 425px) {
+    font-size: 2.5rem;
+  }
 `;
 
 export const ContainerButtons = styled.div`
@@ -176,6 +190,9 @@ export const ContainerButtons = styled.div`
   width: 100%;
   @media (max-width: 768px) {
     margin-left: 200px;
+  }
+  @media (max-width: 425px) {
+    display: none;
   }
 `;
 
@@ -188,7 +205,13 @@ export const TapMessage = styled.div`
   padding: 40px;
   grid-gap: 8px;
   background: rgba(235, 242, 249, 0.2);
-
+  @media (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
   /* position: absolute; */
 `;
 
@@ -205,6 +228,12 @@ export const CallcenterText = styled.div`
   @media (max-width: 1024px) {
     margin-left: 20px;
   }
+  @media (max-width: 425px) {
+    padding: 10px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const H4 = styled.span`
@@ -220,6 +249,12 @@ export const H5 = styled.span`
   font-size: 18px;
   font-weight: 300;
   color: #8493b4;
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 425px) {
+    text-align: center;
+  }
 `;
 
 export const CallcenterImg = styled.img`
