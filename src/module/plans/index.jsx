@@ -150,10 +150,7 @@ const Plans = () => {
               <EspecialImg src={moneyback}></EspecialImg>
             )}
             <EspecialText>Garantía de reembolso </EspecialText>
-            <EspecialP>
-              Pero el precio más grande es gratis, pero tal como está. Un engaño
-              de baloncesto altamente profesional.
-            </EspecialP>
+            <EspecialP></EspecialP>
           </EspecialCard>
 
           <EspecialCard
@@ -166,10 +163,7 @@ const Plans = () => {
               <EspecialImg src={support}></EspecialImg>
             )}
             <EspecialText>Mejor soporte </EspecialText>
-            <EspecialP>
-              Pero el precio más grande es gratis, pero tal como está. Un engaño
-              de baloncesto altamente profesional.
-            </EspecialP>
+            <EspecialP></EspecialP>
           </EspecialCard>
 
           <EspecialCard
@@ -182,10 +176,7 @@ const Plans = () => {
               <EspecialImg src={block}></EspecialImg>
             )}
             <EspecialText>Seguridad de primero </EspecialText>
-            <EspecialP>
-              Pero el precio más grande es gratis, pero tal como está. Un engaño
-              de baloncesto altamente profesional.
-            </EspecialP>
+            <EspecialP></EspecialP>
           </EspecialCard>
 
           <EspecialCard
@@ -198,10 +189,7 @@ const Plans = () => {
               <EspecialImg src={trusted}></EspecialImg>
             )}
             <EspecialText>Confianza 100% </EspecialText>
-            <EspecialP>
-              Pero el precio más grande es gratis, pero tal como está. Un engaño
-              de baloncesto altamente profesional.
-            </EspecialP>
+            <EspecialP></EspecialP>
           </EspecialCard>
         </ContainerCards>
       </PrincipalContainer>
