@@ -14,7 +14,10 @@ const Header = () => {
           <NavLink menu data={ServicesCards} text="Servicios" />
         </a>
         <a href="#planes">
-          <NavLink mr text="Planes" />
+          <NavLink text="Planes" />
+        </a>
+        <a href="#zimbra">
+          <NavLink mr text="Zimbra" />
         </a>
         <a href="#contacto">
           <NavLink text="Contacto" />

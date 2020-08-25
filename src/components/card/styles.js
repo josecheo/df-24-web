@@ -91,7 +91,7 @@ export const Title = styled.div`
 export const P = styled.div`
   font-family: "Montserrat", sans-serif;
   font-weight: medium;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-top: 5px;
   color: ${(props) => props.theme.colors.semiBlack};
   max-width: 100%;

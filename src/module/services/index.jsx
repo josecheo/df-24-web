@@ -17,7 +17,7 @@ const Services = () => (
     <Shape />
     <PrincipalContainer>
       <Text>Nuestros Servicios</Text>
-      <P>Designed to satisfy your creative needs.</P>
+      <P>Calidad y responsabilidad garantizada</P>
       <Line />
       <ContainerCards>
         {ServicesCards.map((elements, index) => (

@@ -231,7 +231,24 @@ export const TapMessage = styled.div`
   }
   /* position: absolute; */
 `;
-
+export const TapMessageSecond = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  /* margin-bottom: 60px; */
+  height: 100px;
+  padding: 40px;
+  grid-gap: 8px;
+  background: rgba(235, 242, 249, 0.2);
+  @media (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* position: absolute; */
+`;
 export const CallcenterText = styled.div`
   display: flex;
   flex-direction: column;

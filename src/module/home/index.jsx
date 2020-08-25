@@ -8,6 +8,7 @@ import Contact from "../contact";
 import Products from "../products";
 import Footer from "../footer";
 import servidores from "../../assets/servidores.svg";
+import Zimbra from "../zimbra";
 import {
   Wrapper,
   SecondContainer,
@@ -16,6 +17,7 @@ import {
   Shape,
   H4,
   Spam,
+  TapMessageSecond,
   ContainerText,
   SecondContainerImg,
   ContainerButtons,
@@ -101,7 +103,8 @@ const Home = () => {
       </TapMessage>
       {/* <Products /> */}
       <Plans />
-
+      {/* <TapMessageSecond /> */}
+      <Zimbra />
       <Partners />
       <Contact />
       <Footer />

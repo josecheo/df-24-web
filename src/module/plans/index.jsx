@@ -37,7 +37,7 @@ const Plans = () => {
   return (
     <Wrapper id="planes">
       <PrincipalContainer>
-        <Text>Infraestructura cloud </Text>
+        <Text>Planes 24D-Cloud</Text>
         <P>Los precios son de acuerdo al requerimiento del cliente.</P>
         <Line />
         <ContainerCards width="90%">
@@ -46,16 +46,18 @@ const Plans = () => {
             <PlandCardContainer>
               <Title background="rgba(255, 186, 117, 0.4)">PLAN BÁSICO</Title>
               <P>✔ Excelente para Iniciar</P>
-              <P>✔ 100% seguro</P>
+              <P>✔ SLA Asegurado 99.9%</P>
               <P>✔ Soporte 24/7</P>
             </PlandCardContainer>
             <WhiteContainer>
-              <TitleX>Seguridad PFSENSE</TitleX>
+              <TitleX>Maximo 100 usuarios</TitleX>
+              <TitleX>Seguridad Firewall</TitleX>
               <TitleX>Correo zima</TitleX>
-              <TitleX>Nextcloud</TitleX>
+              <TitleX>AntiSpam Mail Gateway</TitleX>
+              <TitleX>Drive</TitleX>
               <TitleX>Talk</TitleX>
               <TitleX>Videollamada</TitleX>
-              <TitleX>Document Server</TitleX>
+              <TitleX>Pack Ofimatica</TitleX>
               <Button
                 mt="30px"
                 width="100%"
@@ -72,17 +74,19 @@ const Plans = () => {
           <PlanCard background="-webkit-linear-gradient(90deg, #9c8df1, #7f29f0)">
             <PlandCardContainer>
               <Title background="rgba(156, 141, 241, 0.4)">PLAN ESTANDAR</Title>
-              <P>✔ Excelente para negocios</P>
-              <P>✔ 100% seguro</P>
+              <P>✔ Pequeñas empresas</P>
+              <P>✔ SLA Asegurado 99.9%</P>
               <P>✔ Soporte 24/7</P>
             </PlandCardContainer>
             <WhiteContainer>
-              <TitleX>Seguridad PFSENSE</TitleX>
+              <TitleX>Maximo 200 usuarios</TitleX>
+              <TitleX>Seguridad Firewall</TitleX>
               <TitleX>Correo zima</TitleX>
-              <TitleX>Nextcloud</TitleX>
+              <TitleX>AntiSpam Mail Gateway</TitleX>
+              <TitleX>Drive</TitleX>
               <TitleX>Talk</TitleX>
               <TitleX>Videollamada</TitleX>
-              <TitleX>Document Server</TitleX>
+              <TitleX>Pack Ofimatica</TitleX>
               <Button
                 mt="30px"
                 width="100%"
@@ -99,17 +103,19 @@ const Plans = () => {
           <PlanCard background="-webkit-linear-gradient(90deg, #47f48f, #0dcf77)">
             <PlandCardContainer>
               <Title background="rgba(71, 244, 143, 0.4)">PLAN PREMIUM</Title>
-              <P>✔ Para grandes empresas</P>
+              <P>✔ Grandes empresas</P>
               <P>✔ 100% seguro</P>
               <P>✔ Soporte 24/7</P>
             </PlandCardContainer>
             <WhiteContainer>
-              <TitleX>Seguridad PFSENSE</TitleX>
+              <TitleX>Sin limites de usuarios</TitleX>
+              <TitleX>Seguridad Firewall</TitleX>
               <TitleX>Correo zima</TitleX>
-              <TitleX>Nextcloud</TitleX>
+              <TitleX>AntiSpam Mail Gateway</TitleX>
+              <TitleX>Drive</TitleX>
               <TitleX>Talk</TitleX>
               <TitleX>Videollamada</TitleX>
-              <TitleX>Document Server</TitleX>
+              <TitleX>Pack Ofimatica</TitleX>
               <Button
                 mt="30px"
                 width="100%"
@@ -123,6 +129,8 @@ const Plans = () => {
             <Shape></Shape>
           </PlanCard>
         </ContainerCards>
+        {/*PLANES ZIMBRA */}
+
         <TextX>¿Qué nos hace especial? </TextX>
         <Line />
         <ContainerCards width="80%">
