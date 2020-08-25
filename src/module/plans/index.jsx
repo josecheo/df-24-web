@@ -65,6 +65,8 @@ const Plans = () => {
                 text="Cotiza ahora"
                 background="-webkit-linear-gradient(90deg, #ffba75, #ff7f00)"
                 color="#FFFFFF"
+                href="https://wa.link/egrwq3"
+                target="_blank"
               ></Button>
             </WhiteContainer>
 
@@ -94,6 +96,8 @@ const Plans = () => {
                 text="Cotiza ahora"
                 background="-webkit-linear-gradient(90deg, #9c8df1, #7f29f0)"
                 color="#FFFFFF"
+                href="https://wa.link/egrwq3"
+                target="_blank"
               ></Button>
             </WhiteContainer>
 
@@ -123,6 +127,8 @@ const Plans = () => {
                 text="Cotiza ahora"
                 background="-webkit-linear-gradient(90deg, #47f48f, #0dcf77)"
                 color="#FFFFFF"
+                href="https://wa.link/egrwq3"
+                target="_blank"
               ></Button>
             </WhiteContainer>
 

@@ -58,6 +58,7 @@ const Home = () => {
                   width="190px"
                   height="48px"
                   text="contacto"
+                  href="#contacto"
                   background="#DD6707"
                   color="#FFFFFF"
                 ></Button>
@@ -67,6 +68,7 @@ const Home = () => {
                   width="230px"
                   height="48px"
                   text="Empezemos"
+                  href="#services"
                   background="#FFFFFF"
                   color="#FF7F00"
                 ></Button>

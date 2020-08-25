@@ -32,7 +32,7 @@ export const Wrapper = styled.button`
   }
 `;
 
-export const Text = styled.div`
+export const Text = styled.a`
   transition: color 0.2s;
   ${color};
   font-family: "Montserrat", sans-serif;

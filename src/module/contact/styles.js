@@ -47,13 +47,13 @@ export const Text = styled.div`
 export const Line = styled.div`
   display: flex;
   width: 104px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-bottom: 3px solid #b7b7b7;
 `;
 export const ContainerCards = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 20px;
   ${width}
   height: 100%;
   justify-content: space-around;
@@ -165,7 +165,7 @@ export const CallcenterText = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 40px;
+  padding: 10px;
 `;
 
 export const H4 = styled.span`

@@ -58,6 +58,8 @@ const Zimbra = () => {
               text="Cotiza ahora"
               background="-webkit-linear-gradient(90deg, #ffba75, #ff7f00)"
               color="#FFFFFF"
+              href="https://wa.link/egrwq3"
+              target="_blank"
             ></Button>
           </PlanCard>
           <PlanCard background="#FFFFFF">
@@ -82,6 +84,8 @@ const Zimbra = () => {
               text="Cotiza ahora"
               background="-webkit-linear-gradient(90deg, #ffba75, #ff7f00)"
               color="#FFFFFF"
+              href="https://wa.link/egrwq3"
+              target="_blank"
             ></Button>
           </PlanCard>
           {/* PLAN ESTANDAR */}
@@ -104,6 +108,8 @@ const Zimbra = () => {
               text="Cotiza ahora"
               background="-webkit-linear-gradient(90deg, #ffba75, #ff7f00)"
               color="#FFFFFF"
+              href="https://wa.link/egrwq3"
+              target="_blank"
             ></Button>
           </PlanCard>
           {/* PLAN premiun */}

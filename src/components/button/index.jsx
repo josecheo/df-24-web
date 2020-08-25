@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useRef, createRef } from "react";
 import { Wrapper, Text } from "./styles";
 
 const Button = (props) => {
-  const { width, height, text, background, color, ml, mt } = props;
+  const {
+    width,
+    height,
+    text,
+    background,
+    color,
+    ml,
+    mt,
+    href,
+    target,
+  } = props;
+  const texts = createRef();
+
+  const focuss = () => {
+    texts.current.click();
+  };
 
   return (
     <Wrapper
@@ -12,8 +27,11 @@ const Button = (props) => {
       width={width}
       height={height}
       background={background}
+      onClick={() => focuss()}
     >
-      <Text color={color}>{text}</Text>
+      <Text ref={texts} href={href} target={target} color={color}>
+        {text}
+      </Text>
     </Wrapper>
   );
 };
