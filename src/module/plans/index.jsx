@@ -150,7 +150,10 @@ const Plans = () => {
               <EspecialImg src={moneyback}></EspecialImg>
             )}
             <EspecialText>Garantía de reembolso </EspecialText>
-            <EspecialP></EspecialP>
+            <EspecialP>
+              Optimizando costos con soluciones simplifiacada, su inversion esta
+              a salvo
+            </EspecialP>
           </EspecialCard>
 
           <EspecialCard
@@ -163,7 +166,9 @@ const Plans = () => {
               <EspecialImg src={support}></EspecialImg>
             )}
             <EspecialText>Mejor soporte </EspecialText>
-            <EspecialP></EspecialP>
+            <EspecialP>
+              Especialistas que monitorean todos nuestros servicios
+            </EspecialP>
           </EspecialCard>
 
           <EspecialCard
@@ -176,7 +181,7 @@ const Plans = () => {
               <EspecialImg src={block}></EspecialImg>
             )}
             <EspecialText>Seguridad de primero </EspecialText>
-            <EspecialP></EspecialP>
+            <EspecialP>Maximizamos la seguridad de sus servicios.</EspecialP>
           </EspecialCard>
 
           <EspecialCard
@@ -189,7 +194,9 @@ const Plans = () => {
               <EspecialImg src={trusted}></EspecialImg>
             )}
             <EspecialText>Confianza 100% </EspecialText>
-            <EspecialP></EspecialP>
+            <EspecialP>
+              Muchas empresas ya confian en nuestros servicios
+            </EspecialP>
           </EspecialCard>
         </ContainerCards>
       </PrincipalContainer>

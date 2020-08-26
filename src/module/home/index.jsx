@@ -97,21 +97,11 @@ const Home = () => {
         <CallcenterText>
           <H4A>¿Quienes somos ?</H4A>
           <H5A>
-            Somos una empresa peruana. desarrolladora de Soluciones de Software
-            y de Aplicaciones Web a la medida, para empresas y todo tipo de
-            organizaciones. Nuestra empresa fue fundada el año 2019. que, desde
-            su creación, desarrolla software a la medida con personal
-            especializado. Nuestro objetivo es proporcionar soluciones
-            informáticas y de gestión adecuadas a cada cliente, usando
-            tecnologías y metodologías avanzadas. Sistemas y software
-            desarrollados por personal altamente calificado que satisfacen las
-            necesidades del cliente, cumpliendo criterios de eficacia, calidad,
-            competitividad y rentabilidad. En 24 d&f soluciones nos enfocamos en
-            potenciar el progreso y productividad de las empresas. Por ello
-            ponemos a su disposición diversas soluciones TI como:
-            ciberseguridad, virtualización, networking, cloud, correo zimbra ,
-            data center outsourcing y demás, con el fin de ayudar a las
-            organizaciones a prepararse para el futuro.
+            24D&F OLUCIONES SAC Empresa Peruana de consultoria y servicios
+            tecnologicos. Ofrecemos soluciones de calidad que repercuten de
+            manera positiva en el éxito de su negocio. Disponemos de una amplio
+            portafolio de soluciones OpenSource para satifacer las variades
+            necesidades y obejtivos en cualquier organizacion.
           </H5A>
         </CallcenterText>
         <CallcenterImg src={bussines}></CallcenterImg>

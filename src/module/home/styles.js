@@ -236,7 +236,7 @@ export const TapMessageSecond = styled.section`
   grid-template-columns: 1fr 1fr;
   width: 100%;
   /* margin-bottom: 60px; */
-  /* height: 100vh; */
+  height: 100vh;
   padding: 40px;
   grid-gap: 8px;
   background: #ffffff;
@@ -260,7 +260,10 @@ export const CallcenterText = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 150px;
+  align-self: center;
+  justify-self: center;
+
+  /* margin-left: 150px; */
   width: 80%;
   padding: 40px;
   @media (max-width: 768px) {
@@ -287,7 +290,7 @@ export const H4 = styled.span`
 export const H4A = styled.span`
   font-family: "Montserrat", sans-serif;
   font-size: 43px;
-  text-align: center;
+
   font-weight: 400;
   color: #8493b4;
   margin-bottom: 20px;
@@ -320,6 +323,7 @@ export const H5A = styled.span`
 `;
 
 export const CallcenterImg = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  justify-self: center;
+  align-self: center;
 `;
