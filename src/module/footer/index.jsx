@@ -57,7 +57,13 @@ const Footer = () => (
       </Empresa>
 
       <RedSocia>
-        <ImgS src={facebook}></ImgS>
+        <a
+          href="https://www.facebook.com/24DF-Soluciones-107140244448591/"
+          target="_blank"
+        >
+          <ImgS src={facebook}></ImgS>
+        </a>
+
         <ImgS src={twitter}></ImgS>
         <ImgS src={linkend}></ImgS>
       </RedSocia>
