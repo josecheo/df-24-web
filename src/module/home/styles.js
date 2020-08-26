@@ -231,15 +231,22 @@ export const TapMessage = styled.div`
   }
   /* position: absolute; */
 `;
-export const TapMessageSecond = styled.div`
+export const TapMessageSecond = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
   /* margin-bottom: 60px; */
-  height: 100px;
+  /* height: 100vh; */
   padding: 40px;
   grid-gap: 8px;
-  background: rgba(235, 242, 249, 0.2);
+  background: #ffffff;
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
   @media (max-width: 425px) {
     display: flex;
     flex-direction: column;
@@ -277,10 +284,31 @@ export const H4 = styled.span`
   color: #8493b4;
   margin-bottom: 20px;
 `;
+export const H4A = styled.span`
+  font-family: "Montserrat", sans-serif;
+  font-size: 43px;
+  text-align: center;
+  font-weight: 400;
+  color: #8493b4;
+  margin-bottom: 20px;
+`;
 
 export const H5 = styled.span`
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
+  font-weight: 300;
+  color: #8493b4;
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 425px) {
+    text-align: center;
+  }
+`;
+
+export const H5A = styled.span`
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
   font-weight: 300;
   color: #8493b4;
   @media (max-width: 768px) {

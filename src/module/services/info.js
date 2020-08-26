@@ -11,7 +11,8 @@ export const ServicesCards = [
   {
     Title: "Soluciones Telefonicas IP",
     Description:
-      "Lleva la comunicación de tu empresa al siguiente nivel con Centrales IP ON Premise/Cloud,  Telefonos IP, Call Center On Premise/Cloud y Holding Telefonico(IVR)",
+      "Lleva la comunicación de tu empresa al siguiente nivel con Centrales ON Premise/Cloud,  Telefonos IP, Call Center On Premise/Cloud y Holding Telefonico(IVR)",
+
     icoColor: "#30CDFC",
     ico: icoTelefonica,
   },
@@ -25,14 +26,14 @@ export const ServicesCards = [
   {
     Title: "Seguridad perimetral",
     Description:
-      "Contar con una adecuada infraestructura de seguridad actualizada en la red de su empresa es un asunto obligatorio (Fortinet, Sophos, Etc.)",
+      "Manten la seguridad de tu empresa protegida Trabajamos con las siguientes marcas: Sophos, fortinet, entre otros, Tambien contamos con una solucion Opensource	",
     icoColor: "#CDB6EF",
     ico: icoFirewall,
   },
   {
     Title: "Correos Corporativos",
     Description:
-      "Hoy en dia las empresas dependen en gran medida del intercambio de correos electronicos para planificar y ejecutar las actividades diarias. Zimbra On Premise/Cloud.",
+      "Servidor de correo, económico y seguro. Aumente la productividad y colaboración de tu empresa Zimbra - On Premise/Cloud",
     icoColor: "#FF7F00",
     ico: icoEmail,
   },

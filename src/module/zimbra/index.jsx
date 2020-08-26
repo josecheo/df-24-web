@@ -42,7 +42,6 @@ const Zimbra = () => {
           <PlanCard background="#FFFFFF">
             <Title>PACK BÁSICO</Title>
             <PlandCardContainer>
-              <P>✔ 10 cuentas minimas </P>
               <P>✔ 8 gb de Cloud</P>
               <P>✔ Para moviles</P>
               <P>✔ Certifcado SSL</P>
@@ -65,7 +64,6 @@ const Zimbra = () => {
           <PlanCard background="#FFFFFF">
             <Title>PACK PROFESIONAL</Title>
             <PlandCardContainer>
-              <P>✔ 10 cuentas minimas </P>
               <P>✔ 15 gb de Cloud</P>
               <P>✔ 15 gb de Drive</P>
               <P>✔ Pack Office</P>
@@ -92,7 +90,6 @@ const Zimbra = () => {
           <PlanCard background="#FFFFFF">
             <Title>PACK ESTANDAR</Title>
             <PlandCardContainer>
-              <P>✔ 10 cuentas minimas </P>
               <P>✔ 15 gb de Cloud</P>
               <P>✔ Para moviles</P>
               <P>✔ Certifcado SSL</P>

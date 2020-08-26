@@ -5,7 +5,7 @@ import Plans from "../plans";
 import callcenter from "../../assets/CALLCENTER.svg";
 import Partners from "../partners";
 import Contact from "../contact";
-import Products from "../products";
+import bussines from "../../assets/services/bussines.svg";
 import Footer from "../footer";
 import servidores from "../../assets/servidores.svg";
 import Zimbra from "../zimbra";
@@ -16,6 +16,8 @@ import {
   Text,
   Shape,
   H4,
+  H4A,
+  H5A,
   Spam,
   TapMessageSecond,
   ContainerText,
@@ -68,7 +70,7 @@ const Home = () => {
                   width="230px"
                   height="48px"
                   text="Empezemos"
-                  href="#services"
+                  href="#about"
                   background="#FFFFFF"
                   color="#FF7F00"
                 ></Button>
@@ -91,21 +93,44 @@ const Home = () => {
         </PrincipalContainer>
         <Shape />
       </Wrapper>
+      <TapMessageSecond id="about">
+        <CallcenterText>
+          <H4A>¿Quienes somos ?</H4A>
+          <H5A>
+            Somos una empresa peruana. desarrolladora de Soluciones de Software
+            y de Aplicaciones Web a la medida, para empresas y todo tipo de
+            organizaciones. Nuestra empresa fue fundada el año 2019. que, desde
+            su creación, desarrolla software a la medida con personal
+            especializado. Nuestro objetivo es proporcionar soluciones
+            informáticas y de gestión adecuadas a cada cliente, usando
+            tecnologías y metodologías avanzadas. Sistemas y software
+            desarrollados por personal altamente calificado que satisfacen las
+            necesidades del cliente, cumpliendo criterios de eficacia, calidad,
+            competitividad y rentabilidad. En 24 d&f soluciones nos enfocamos en
+            potenciar el progreso y productividad de las empresas. Por ello
+            ponemos a su disposición diversas soluciones TI como:
+            ciberseguridad, virtualización, networking, cloud, correo zimbra ,
+            data center outsourcing y demás, con el fin de ayudar a las
+            organizaciones a prepararse para el futuro.
+          </H5A>
+        </CallcenterText>
+        <CallcenterImg src={bussines}></CallcenterImg>
+      </TapMessageSecond>
       <Services />
       <TapMessage>
         <CallcenterText>
           <H4>Modulos Call Center</H4>
           <H5>
-            Supere los desafíos y logre sus objetivos comerciales únicos con un
-            modulo call center optimizado para su empresa, contactanos ahora
-            para mas información.
+            Crea campañas para ventas, cobranzas, atención al cliente y
+            encuestas de manera personalizada, según tus necesidades y monitorea
+            en tiempo real
           </H5>
         </CallcenterText>
         <CallcenterImg src={callcenter}></CallcenterImg>
       </TapMessage>
       {/* <Products /> */}
       <Plans />
-      {/* <TapMessageSecond /> */}
+
       <Zimbra />
       <Partners />
       <Contact />

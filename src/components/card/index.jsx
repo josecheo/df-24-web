@@ -1,8 +1,8 @@
 import React from "react";
-import { Wrapper, Title, Container, Circle, Info, P } from "./styles";
+import { Wrapper, Title, Container, Circle, Info, P, Parrafo } from "./styles";
 
 const Card = (props) => {
-  const { title, description, ico, icoColor } = props;
+  const { title, description, ico, icoColor, descriptionsecond } = props;
 
   return (
     <Wrapper {...props}>
@@ -13,6 +13,7 @@ const Card = (props) => {
         <Info>
           <Title>{title}</Title>
           <P>{description}</P>
+          <P>{descriptionsecond}</P>
         </Info>
       </Container>
     </Wrapper>

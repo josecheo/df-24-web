@@ -97,15 +97,15 @@ const Contact = () => {
           </CallcenterText>
           <Form onSubmit={() => console.log("Submit")}>
             <div>
-              <H4>¿Como te llamas?</H4>
+              <H4>Nombre</H4>
               <Input type="text" id="username" name="username" required></Input>
             </div>
             <div>
-              <H4>¿Cual es tu numero telefonico?</H4>
+              <H4>Telefono</H4>
               <Input type="number" id="phone" name="phone" required></Input>
             </div>
             <div>
-              <H4>Tu correo electronico</H4>
+              <H4>Correo Electronico</H4>
               <Input type="email" id="email" name="email" required></Input>
             </div>
 

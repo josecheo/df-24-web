@@ -75,12 +75,12 @@ export const Title = styled.div`
   justify-content: center;
   align-items: center;
   height: 40px;
-  width: 77%;
+  width: 87%;
   border-radius: 4px;
   background: #ebf2f9;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-top: 5px;
   margin-bottom: 15px;
   @media (max-width: 425px) {
@@ -88,11 +88,10 @@ export const Title = styled.div`
   }
 `;
 
-export const P = styled.div`
+export const P = styled.p`
   font-family: "Montserrat", sans-serif;
   font-weight: medium;
-  font-size: 0.8rem;
-  margin-top: 5px;
+  font-size: 0.7rem;
   color: ${(props) => props.theme.colors.semiBlack};
   max-width: 100%;
   @media (max-width: 425px) {

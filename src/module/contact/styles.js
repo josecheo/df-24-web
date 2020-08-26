@@ -105,12 +105,12 @@ export const ContainerText = styled.div`
 `;
 export const ContainerTitle = styled.div`
   display: flex;
-justify-content:flex-start;
-align-items:center;
+  justify-content: flex-start;
+  align-items: center;
   padding: 10px;
   width: 100%;
   height: 100%;
-  margin-bottom:15px;
+  margin-bottom: 15px;
   /* background: ${(props) => props.bg}; */
 `;
 
@@ -122,11 +122,11 @@ export const EspecialCard = styled.div`
   padding: 50px 40px;
   margin-right: 30px;
   box-sizing: border-box;
-${(props) =>
-  props.cursor &&
-  css`
-    cursor: pointer;
-  `}
+  ${(props) =>
+    props.cursor &&
+    css`
+      cursor: pointer;
+    `}
   ${width}
   ${height}
   background: white;
@@ -137,19 +137,16 @@ ${(props) =>
 
   &:hover {
     transform: scale(1.07);
-    
   }
-    &:hover #as {
-     background: ${(props) => props.theme.colors.primary};
+  &:hover #as {
+    background: ${(props) => props.theme.colors.primary};
   }
-    @media (max-width: 425px) {
-margin-right:0px;
-
+  @media (max-width: 425px) {
+    margin-right: 0px;
   }
-      @media (max-width: 320px) {
-width:300px;
-height:360px;
-
+  @media (max-width: 320px) {
+    width: 300px;
+    height: 360px;
   }
 `;
 
@@ -185,10 +182,18 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 110%;
+  width: 150%;
   height: 400px;
   box-shadow: 10px 10px 21px -6px rgba(0, 0, 0, 0.42);
   padding: 40px;
+  @media (max-width: 425px) {
+    width: 120%;
+    height: 600px;
+  }
+  @media (max-width: 375px) {
+    width: 100%;
+    height: 600px;
+  }
   @media (max-width: 320px) {
     width: 95%;
     height: 600px;

@@ -27,6 +27,7 @@ const Services = () => (
             height="250px"
             title={elements.Title}
             description={elements.Description}
+            descriptionsecond={elements.descriptionsecond}
             icoColor={elements.icoColor}
             ico={elements.ico}
           ></Card>
