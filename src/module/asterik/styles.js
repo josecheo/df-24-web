@@ -16,9 +16,9 @@ import {
 
 export const Wrapper = styled.section`
   display: flex;
+  margin-top: 140px;
   position: relative;
   width: 100vw;
-  /* height: 100vh; */
   background: #ffffff;
 `;
 
@@ -50,10 +50,16 @@ export const Text = styled.div`
     font-size: 1.7rem;
   }
 `;
+export const Img = styled.img`
+  width: 400px;
+`;
+export const ImgContainer = styled.img`
+  height: 100px;
+`;
 
 export const TextX = styled.div`
   font-family: "Montserrat", sans-serif;
-
+  margin-top: 80px;
   color: ${(props) => props.theme.colors.black};
   font-size: 1.6rem;
   font-weight: 600;
@@ -74,7 +80,6 @@ export const ContainerCards = styled.div`
   padding: 30px;
   margin-top: 20px;
   ${width}
-
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -90,11 +95,14 @@ export const ContainerCards = styled.div`
 
 export const PlanCard = styled.div`
   display: flex;
+  padding: 20px;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
   position: relative;
   width: 300px;
-  height: 700px;
+  height: 500px;
   /* background-image: -webkit-linear-gradient(90deg, #9c8df1, #7f29f0); */
   ${background}
 
@@ -122,22 +130,19 @@ export const PlandCardContainer = styled.div`
   width: 100%;
   height: 100%;
   background: transparent;
-  padding: 30px;
   align-items: center;
+  justify-content: center;
 `;
 export const Title = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
-  height: 40px;
-  width: 77%;
-  border-radius: 4px;
-  ${background};
+  width: 100%;
   font-family: "Montserrat", sans-serif;
-  font-weight: regular;
+  font-weight: bold;
   font-size: 1rem;
-  color: #ffffff;
+  color: #ff7f00;
   @media (max-width: 425px) {
     width: 100%;
     /* font-size: 0.7rem; */
@@ -170,7 +175,18 @@ export const P = styled.div`
   font-weight: medium;
   font-size: 1rem;
   margin-top: 5px;
-  color: #ffffff;
+  color: black;
+  max-width: 100%;
+  @media (max-width: 425px) {
+    text-align: center;
+  }
+`;
+export const PS = styled.div`
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  font-size: 1rem;
+  margin-top: 5px;
+  color: blacks;
   max-width: 100%;
   @media (max-width: 425px) {
     text-align: center;

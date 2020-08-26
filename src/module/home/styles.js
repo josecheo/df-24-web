@@ -214,11 +214,9 @@ export const ContainerButtons = styled.div`
 `;
 
 export const TapMessage = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   width: 100%;
-  /* margin-bottom: 60px; */
-  height: 500px;
+
   padding: 40px;
   grid-gap: 8px;
   background: rgba(235, 242, 249, 0.2);

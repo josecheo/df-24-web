@@ -9,6 +9,7 @@ import bussines from "../../assets/services/bussines.svg";
 import Footer from "../footer";
 import servidores from "../../assets/servidores.svg";
 import Zimbra from "../zimbra";
+import Asterik from "../asterik";
 import {
   Wrapper,
   SecondContainer,
@@ -107,21 +108,11 @@ const Home = () => {
         <CallcenterImg src={bussines}></CallcenterImg>
       </TapMessageSecond>
       <Services />
-      <TapMessage>
-        <CallcenterText>
-          <H4>Modulos Call Center</H4>
-          <H5>
-            Crea campañas para ventas, cobranzas, atención al cliente y
-            encuestas de manera personalizada, según tus necesidades y monitorea
-            en tiempo real
-          </H5>
-        </CallcenterText>
-        <CallcenterImg src={callcenter}></CallcenterImg>
-      </TapMessage>
+      <Asterik></Asterik>
+
       {/* <Products /> */}
       <Plans />
-
-      <Zimbra />
+      {/* <Zimbra /> */}
       <Partners />
       <Contact />
       <Footer />

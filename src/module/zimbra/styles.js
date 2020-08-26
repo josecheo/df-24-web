@@ -16,6 +16,7 @@ import {
 
 export const Wrapper = styled.section`
   display: flex;
+  margin-top: 140px;
   position: relative;
   width: 100vw;
   /* height: 100vh; */

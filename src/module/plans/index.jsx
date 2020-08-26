@@ -8,7 +8,7 @@ import block from "../../assets/services/block.svg";
 import blockwhite from "../../assets/services/blockwhite.svg";
 import trusted from "../../assets/services/trusted.svg";
 import trustedwhite from "../../assets/services/trustedwhite.svg";
-
+import Zimbra from "../zimbra";
 import {
   Wrapper,
   PrincipalContainer,
@@ -137,6 +137,7 @@ const Plans = () => {
         </ContainerCards>
         {/*PLANES ZIMBRA */}
 
+        <Zimbra></Zimbra>
         <TextX>¿Qué nos hace diferente? </TextX>
         <Line />
         <ContainerCards width="80%">
