@@ -137,7 +137,7 @@ const Plans = () => {
         </ContainerCards>
         {/*PLANES ZIMBRA */}
 
-        <TextX>¿Qué nos hace especial? </TextX>
+        <TextX>¿Qué nos hace diferente? </TextX>
         <Line />
         <ContainerCards width="80%">
           <EspecialCard

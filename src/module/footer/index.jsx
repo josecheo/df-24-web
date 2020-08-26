@@ -53,7 +53,7 @@ const Footer = () => (
         <Span>Correos corporativos</Span>
         <Span>Servidores de red</Span>
         <Span>Video conferencias</Span>
-        <Span>Firewalls</Span>
+        <Span>Seguridad perimetral</Span>
       </Empresa>
 
       <RedSocia>

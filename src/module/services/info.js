@@ -4,24 +4,26 @@ import icoFirewall from "../../assets/services/firewall.svg";
 import icoEmail from "../../assets/services/zimba.svg";
 import icoLinux from "../../assets/services/linux.svg";
 import icoReds from "../../assets/services/reds.svg";
+import icoVirtualizacion from "../../assets/services/virtualizacion.svg";
+import icoSoporte from "../../assets/services/soporte.svg";
 
 export const ServicesCards = [
   {
-    Title: "Soluciones Telefonicas",
+    Title: "Soluciones Telefonicas IP",
     Description:
       "Lleva la comunicación de tu empresa al siguiente nivel con Centrales IP ON Premise/Cloud,  Telefonos IP, Call Center On Premise/Cloud y Holding Telefonico(IVR)",
     icoColor: "#30CDFC",
     ico: icoTelefonica,
   },
   {
-    Title: "Videos Conferencias",
+    Title: "Audio/Video Conferencia	",
     Description:
       "Permite la facilidad de reuniones de la empresa sin interrupciones y manten tu empresa en contacto sin importar donde estes.",
     icoColor: "#85EDB4",
     ico: icoVideo,
   },
   {
-    Title: "Firewall",
+    Title: "Seguridad perimetral",
     Description:
       "Contar con una adecuada infraestructura de seguridad actualizada en la red de su empresa es un asunto obligatorio (Fortinet, Sophos, Etc.)",
     icoColor: "#CDB6EF",
@@ -47,5 +49,19 @@ export const ServicesCards = [
       "Unifica la gestion de tu infraestructura de red monitorizando y controlando las TIC de tu organización. (Zentyal - FreeNas - Zabbix - Monit)",
     icoColor: "#30CDFC",
     ico: icoReds,
+  },
+  {
+    Title: "Virtualizacion de Servidores",
+    Description:
+      "Optimiza tu infraestructura y saca el máximo provecho a tus servidores con las soluciones de Virtualizacion. PROXMOX VE , KVM , XEN SERVER",
+    icoColor: "#f73131",
+    ico: icoVirtualizacion,
+  },
+  {
+    Title: "Soportes",
+    Description:
+      "Nuestro servicio de soporte especializado trabajará en equipo con su empresa, ofrecemos simplicidad y economía. Soporte de servidores, linux, servicio de help desk",
+    icoColor: "#0a0ac6",
+    ico: icoSoporte,
   },
 ];

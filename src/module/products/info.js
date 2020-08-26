@@ -21,7 +21,7 @@ export const ServicesCards = [
     ico: icoVideo,
   },
   {
-    Title: "Firewall",
+    Title: "Seguridad perimetral",
     Description:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat",
     icoColor: "#CDB6EF",

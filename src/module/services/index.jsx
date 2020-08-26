@@ -23,7 +23,7 @@ const Services = () => (
         {ServicesCards.map((elements, index) => (
           <Card
             key={index}
-            width="500px"
+            width="400px"
             height="250px"
             title={elements.Title}
             description={elements.Description}

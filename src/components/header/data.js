@@ -7,6 +7,8 @@ import icoReds from "../../assets/services/reds.svg";
 import cellphone from "../../assets/services/cellphone.svg";
 import phone from "../../assets/services/phone.svg";
 import mail from "../../assets/services/mail.svg";
+import icoVirtualizacion from "../../assets/services/virtualizacion.svg";
+import icoSoporte from "../../assets/services/soporte.svg";
 
 export const ServicesCards = [
   {
@@ -22,7 +24,7 @@ export const ServicesCards = [
     ico: icoVideo,
   },
   {
-    Title: "Firewall",
+    Title: "Seguridad perimetral",
     Description: "---------------------------------",
     icoColor: "#CDB6EF",
     ico: icoFirewall,
@@ -44,6 +46,18 @@ export const ServicesCards = [
     Description: "---------------------------------",
     icoColor: "#30CDFC",
     ico: icoReds,
+  },
+  {
+    Title: "Virtualizacion",
+    Description: "---------------------------------",
+    icoColor: "#f73131",
+    ico: icoVirtualizacion,
+  },
+  {
+    Title: "Servicio de Soporte",
+    Description: "---------------------------------",
+    icoColor: "#0a0ac6",
+    ico: icoSoporte,
   },
 ];
 

@@ -50,7 +50,7 @@ export const Circle = styled.div`
   align-items: center;
   border-radius: 50%;
   width: 100%;
-  height: 85%;
+  height: 65%;
   margin-left: -60px;
   background: ${(props) => props.bg};
   @media (max-width: 425px) {
