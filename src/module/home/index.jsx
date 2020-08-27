@@ -98,7 +98,7 @@ const Home = () => {
         <CallcenterText>
           <H4A>¿Quienes somos ?</H4A>
           <H5A>
-            24D&F OLUCIONES SAC Empresa Peruana de consultoria y servicios
+            24D&F SOLUCIONES SAC Empresa Peruana de consultoria y servicios
             tecnologicos. Ofrecemos soluciones de calidad que repercuten de
             manera positiva en el éxito de las empresas. Disponemos de una
             amplio portafolio de productos y servicios tanto OpenSource como

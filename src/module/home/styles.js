@@ -321,7 +321,7 @@ export const H5A = styled.span`
 `;
 
 export const CallcenterImg = styled.img`
-  width: 70%;
+  width: 60%;
   justify-self: center;
   align-self: center;
 `;
