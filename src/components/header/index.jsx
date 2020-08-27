@@ -3,7 +3,6 @@ import LogoBlanco from "../../assets/LogoBlanco.svg";
 import NavLink from "../navlink";
 import { Wrapper, Nav, ResponsiMode } from "./styles";
 import { ServicesCards, SupportCards } from "./data";
-import { width } from "styled-system";
 const Header = () => {
   return (
     <Wrapper>
@@ -14,14 +13,14 @@ const Header = () => {
           <NavLink menu data={ServicesCards} text="Servicios" />
         </a>
         <a href="#planes">
-          <NavLink text="Planes" />
+          <NavLink mr text="Planes" />
         </a>
-        <a href="#asterik">
+        {/* <a href="#asterik">
           <NavLink text="Asterisk" />
         </a>
         <a href="#zimbra">
           <NavLink mr text="Zimbra" />
-        </a>
+         </a> */}
         <a href="#contacto">
           <NavLink text="Contacto" />
         </a>

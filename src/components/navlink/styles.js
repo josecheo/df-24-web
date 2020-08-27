@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  width: 107px;
+  width: 137px;
   height: 41px;
   position: relative;
   align-items: center;
@@ -18,6 +18,9 @@ export const Wrapper = styled.div`
     css`
       margin-right: 70px;
     `};
+  @media (max-width: 1024px) {
+    width: 107px;
+  }
   @media (max-width: 768px) {
     width: 100%;
     margin-right: 20px;
@@ -26,7 +29,7 @@ export const Wrapper = styled.div`
 export const Span = styled.span`
   font-family: "Montserrat", sans-serif;
   color: ${(props) => props.theme.colors.white};
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 550;
   transition: color 0.2s;
   cursor: pointer;
@@ -35,6 +38,9 @@ export const Span = styled.span`
     css`
       color: #f9d41c;
     `};
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
 `;
 
 export const Arrow = styled.div`

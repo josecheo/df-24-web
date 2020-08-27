@@ -18,8 +18,9 @@ export const Wrapper = styled.div`
 
 export const Nav = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+
   @media (max-width: 768px) {
     justify-content: space-around;
   }
