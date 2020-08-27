@@ -5,6 +5,7 @@ import mappin from "../../assets/services/mappin.svg";
 import facebook from "../../assets/services/FACEBOOK.svg";
 import twitter from "../../assets/services/TWITTER.svg";
 import linkend from "../../assets/services/LINKEDIN.svg";
+import logo_footer from "../../assets/logo_footer.svg";
 
 import {
   Wrapper,
@@ -16,14 +17,22 @@ import {
   Empresa,
   Span,
   SpanBlack,
+  ContainerSes,
   ImgS,
+  ImgZ,
+  Line,
   RedSocia,
 } from "./styles";
 
 const Footer = () => (
   <Wrapper>
     <PrincipalContainer>
+      <ImgZ src={logo_footer}></ImgZ>
       <Container>
+        <MiniContainerDirection>
+          <Img src={mappin}></Img>
+          Av Ramon Zavala 217 villa sol, distrito de Los Olivos
+        </MiniContainerDirection>
         <MiniContainer>
           <Img src={phonewhite}></Img>
           01 701 3658
@@ -32,30 +41,10 @@ const Footer = () => (
           <Img src={mailwhite}></Img>
           ventas@24d.pe
         </MiniContainer>
-        <MiniContainerDirection>
-          <Img src={mappin}></Img>
-          Av Ramon Zavala 217 villa sol, distrito de Los Olivos
-        </MiniContainerDirection>
       </Container>
-
-      <Empresa>
-        <SpanBlack>Compañia</SpanBlack>
-        <Span>Quienes somos</Span>
-        <Span>Lo nuevo</Span>
-        <Span>FAQ</Span>
-        <Span>Contacto</Span>
-      </Empresa>
-
-      <Empresa>
-        <SpanBlack>Servicios</SpanBlack>
-        <Span>Soluciones telefonicas</Span>
-        <Span>Soluciones Opensource</Span>
-        <Span>Correos corporativos</Span>
-        <Span>Servidores de red</Span>
-        <Span>Video conferencias</Span>
-        <Span>Seguridad perimetral</Span>
-      </Empresa>
-
+    </PrincipalContainer>
+    <Line></Line>
+    <PrincipalContainer>
       <RedSocia>
         <a
           href="https://www.facebook.com/24DF-Soluciones-107140244448591/"
@@ -63,11 +52,19 @@ const Footer = () => (
         >
           <ImgS src={facebook}></ImgS>
         </a>
-
         <ImgS src={twitter}></ImgS>
         <ImgS src={linkend}></ImgS>
       </RedSocia>
+      <ContainerSes>
+        <MiniContainer>Home</MiniContainer>
+        <MiniContainer>Nosotros</MiniContainer>
+        <MiniContainer>Servicios</MiniContainer>
+        <MiniContainer>Planes</MiniContainer>
+        <MiniContainer>Zimbra</MiniContainer>
+        <MiniContainer>Asterisk</MiniContainer>
+      </ContainerSes>
     </PrincipalContainer>
+    <Line></Line>
   </Wrapper>
 );
 
