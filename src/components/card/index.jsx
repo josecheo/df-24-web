@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper, Title, Container, Circle, Info, P, Parrafo } from "./styles";
+import { Wrapper, Title, Container, Circle, Info, P } from "./styles";
 
 const Card = (props) => {
   const { title, description, ico, icoColor, descriptionsecond } = props;

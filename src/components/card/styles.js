@@ -74,7 +74,7 @@ export const Title = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  /* height: 40px; */
   width: 87%;
   border-radius: 4px;
   background: #ebf2f9;
@@ -98,3 +98,13 @@ export const P = styled.p`
     font-size: 0.6rem;
   }
 `;
+// export const PS = styled.p`
+//   font-family: "Montserrat", sans-serif;
+//   font-weight: medium;
+//   font-size: 0.6rem;
+//   color: ${(props) => props.theme.colors.black};
+//   max-width: 100%;
+//   @media (max-width: 425px) {
+//     font-size: 0.6rem;
+//   }
+// `;

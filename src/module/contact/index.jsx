@@ -42,7 +42,8 @@ const Contact = () => {
             </ContainerTitle>
             <ContainerText>
               <P>
-                Atención al cliente 24/7 Llama gratis al <Span>385900285</Span>
+                Atención al cliente 24/7 Llama gratis al{" "}
+                <Span>01 701 3658</Span>
               </P>
               <br></br>
               <P>Disfrute de una consulta gratuita con los mejores expertos.</P>

@@ -40,7 +40,7 @@ const Zimbra = () => {
         <ContainerCards width="90%">
           {/* PLAN BASICO */}
           <PlanCard background="#FFFFFF">
-            <Title>PACK BÁSICO</Title>
+            <Title>PLAN BÁSICO</Title>
             <PlandCardContainer>
               <P>✔ 8 gb de Cloud</P>
               <P>✔ Para moviles</P>
@@ -62,7 +62,7 @@ const Zimbra = () => {
             ></Button>
           </PlanCard>
           <PlanCard background="#FFFFFF">
-            <Title>PACK PROFESIONAL</Title>
+            <Title>PLAN PROFESIONAL</Title>
             <PlandCardContainer>
               <P>✔ 15 gb de Cloud</P>
               <P>✔ 15 gb de Drive</P>
@@ -88,7 +88,7 @@ const Zimbra = () => {
           </PlanCard>
           {/* PLAN ESTANDAR */}
           <PlanCard background="#FFFFFF">
-            <Title>PACK ESTANDAR</Title>
+            <Title>PLAN ESTANDAR</Title>
             <PlandCardContainer>
               <P>✔ 15 gb de Cloud</P>
               <P>✔ Para moviles</P>

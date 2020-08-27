@@ -10,9 +10,9 @@ import icoSoporte from "../../assets/services/soporte.svg";
 export const ServicesCards = [
   {
     Title: "Soluciones Telefonicas IP",
-    Description:
-      "Lleva la comunicación de tu empresa al siguiente nivel con Centrales ON Premise/Cloud,  Telefonos IP, Call Center On Premise/Cloud y Holding Telefonico(IVR)",
-
+    Description: "Lleva la comunicación de tu empresa al siguiente nivel.",
+    descriptionsecond:
+      "Centrales ON Premise/Cloud,  Telefonos IP, Call Center On Premise/Cloud y Holding Telefonico(IVR).",
     icoColor: "#30CDFC",
     ico: icoTelefonica,
   },
@@ -33,7 +33,8 @@ export const ServicesCards = [
   {
     Title: "Correos Corporativos",
     Description:
-      "Servidor de correo, económico y seguro. Aumente la productividad y colaboración de tu empresa Zimbra - On Premise/Cloud",
+      "Servidor de correo, económico y seguro. Aumente la productividad y colaboración de tu empresa",
+    descriptionsecond: "Zimbra - On Premise/Cloud.",
     icoColor: "#FF7F00",
     ico: icoEmail,
   },
@@ -47,21 +48,24 @@ export const ServicesCards = [
   {
     Title: "Servidores de Red",
     Description:
-      "Unifica la gestion de tu infraestructura de red monitorizando y controlando las TIC de tu organización. (Zentyal - FreeNas - Zabbix - Monit)",
+      "Unifica la gestion de tu infraestructura de red monitorizando y controlando las TIC de tu organización",
+    descriptionsecond: "(Zentyal - FreeNas - Zabbix - Monit).",
     icoColor: "#30CDFC",
     ico: icoReds,
   },
   {
     Title: "Virtualizacion de Servidores",
     Description:
-      "Optimiza tu infraestructura y saca el máximo provecho a tus servidores con las soluciones de Virtualizacion. PROXMOX VE , KVM , XEN SERVER",
+      "Optimiza tu infraestructura y saca el máximo provecho a tus servidores con las soluciones de Virtualizacion",
+    descriptionsecond: "PROXMOX VE , KVM , XEN SERVER.",
     icoColor: "#f73131",
     ico: icoVirtualizacion,
   },
   {
     Title: "Soportes",
     Description:
-      "Nuestro servicio de soporte especializado trabajará en equipo con su empresa, ofrecemos simplicidad y economía. Soporte de servidores, linux, servicio de help desk",
+      "Nuestro servicio de soporte especializado trabajará en equipo con su empresa, ofrecemos simplicidad y economía.",
+    descriptionsecond: "Soporte de servidores, linux.",
     icoColor: "#0a0ac6",
     ico: icoSoporte,
   },

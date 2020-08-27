@@ -43,7 +43,7 @@ const elements = css`
   }
 
   p {
-    margin-bottom: 1.15em;
+    /* margin-bottom: 1.15em; */
 
     &:last-of-type {
       margin-bottom: 0;

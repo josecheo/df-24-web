@@ -96,7 +96,7 @@ export const ContainerCards = styled.div`
 export const PlanCard = styled.div`
   display: flex;
   padding: 20px;
-  margin-top:20px;
+  margin-top: 20px;
   flex-direction: column;
   border-radius: 10px;
   justify-content: space-around;
@@ -131,7 +131,7 @@ export const PlandCardContainer = styled.div`
   width: 100%;
   height: 100%;
   background: transparent;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 `;
 export const Title = styled.div`
