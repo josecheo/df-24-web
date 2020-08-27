@@ -96,6 +96,7 @@ export const ContainerCards = styled.div`
 export const PlanCard = styled.div`
   display: flex;
   padding: 20px;
+  margin-top:20px;
   flex-direction: column;
   border-radius: 10px;
   justify-content: space-around;
