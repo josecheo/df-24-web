@@ -52,9 +52,9 @@ const Asterik = () => {
             <PlandCardContainer>
               <P>
                 Crea campañas para ventas, cobranzas, atención al cliente y
-                encuestas de manera personalizada, según tus necesidades y
-                monitorea en tiempo real
+                encuestas de manera personalizada.
               </P>
+              <P>Monitoreo en tiempo real</P>
             </PlandCardContainer>
             <Button
               mt="30px"

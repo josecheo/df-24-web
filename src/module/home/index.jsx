@@ -60,7 +60,7 @@ const Home = () => {
                   mt="100px"
                   width="190px"
                   height="48px"
-                  text="contacto"
+                  text="Contacto"
                   href="#contacto"
                   background="#DD6707"
                   color="#FFFFFF"
@@ -100,9 +100,10 @@ const Home = () => {
           <H5A>
             24D&F OLUCIONES SAC Empresa Peruana de consultoria y servicios
             tecnologicos. Ofrecemos soluciones de calidad que repercuten de
-            manera positiva en el éxito de su negocio. Disponemos de una amplio
-            portafolio de soluciones OpenSource para satifacer las variades
-            necesidades y obejtivos en cualquier organizacion.
+            manera positiva en el éxito de las empresas. Disponemos de una
+            amplio portafolio de productos y servicios tanto OpenSource como
+            licenciados, para asi satisfacer las necesidades de cualquier
+            empresa.
           </H5A>
         </CallcenterText>
         <CallcenterImg src={bussines}></CallcenterImg>

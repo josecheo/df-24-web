@@ -16,6 +16,9 @@ const Header = () => {
         <a href="#planes">
           <NavLink text="Planes" />
         </a>
+        <a href="#asterik">
+          <NavLink text="Asterisk" />
+        </a>
         <a href="#zimbra">
           <NavLink mr text="Zimbra" />
         </a>

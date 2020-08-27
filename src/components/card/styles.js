@@ -91,10 +91,10 @@ export const Title = styled.div`
 export const P = styled.p`
   font-family: "Montserrat", sans-serif;
   font-weight: medium;
-  font-size: 0.7rem;
-  color: ${(props) => props.theme.colors.semiBlack};
+  font-size: 0.6rem;
+  color: ${(props) => props.theme.colors.black};
   max-width: 100%;
   @media (max-width: 425px) {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 `;

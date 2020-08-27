@@ -37,7 +37,7 @@ const Plans = () => {
   return (
     <Wrapper id="planes">
       <PrincipalContainer>
-        <Text>Planes 24D-Cloud</Text>
+        <Text>Planes de Infraestructura Cloud</Text>
         <P>Los precios son de acuerdo al requerimiento del cliente.</P>
         <Line />
         <ContainerCards width="90%">
@@ -52,7 +52,7 @@ const Plans = () => {
             <WhiteContainer>
               <TitleX>Maximo 100 usuarios</TitleX>
               <TitleX>Seguridad Firewall</TitleX>
-              <TitleX>Correo zima</TitleX>
+              <TitleX>Correo Zimbra</TitleX>
               <TitleX>AntiSpam Mail Gateway</TitleX>
               <TitleX>Drive</TitleX>
               <TitleX>Talk</TitleX>
@@ -83,7 +83,7 @@ const Plans = () => {
             <WhiteContainer>
               <TitleX>Maximo 200 usuarios</TitleX>
               <TitleX>Seguridad Firewall</TitleX>
-              <TitleX>Correo zima</TitleX>
+              <TitleX>Correo Zimbra</TitleX>
               <TitleX>AntiSpam Mail Gateway</TitleX>
               <TitleX>Drive</TitleX>
               <TitleX>Talk</TitleX>
@@ -114,7 +114,7 @@ const Plans = () => {
             <WhiteContainer>
               <TitleX>Sin limites de usuarios</TitleX>
               <TitleX>Seguridad Firewall</TitleX>
-              <TitleX>Correo zima</TitleX>
+              <TitleX>Correo Zimbra</TitleX>
               <TitleX>AntiSpam Mail Gateway</TitleX>
               <TitleX>Drive</TitleX>
               <TitleX>Talk</TitleX>

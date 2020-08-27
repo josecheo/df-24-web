@@ -26,7 +26,7 @@ export const Wrapper = styled.div`
 export const Span = styled.span`
   font-family: "Montserrat", sans-serif;
   color: ${(props) => props.theme.colors.white};
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 550;
   transition: color 0.2s;
   cursor: pointer;
