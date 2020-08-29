@@ -116,7 +116,7 @@ const Asterik = () => {
             <ImgContainer src={astt}></ImgContainer>
             <PlandCardContainer>
               <P>
-                permite a los clientes interactuar con el sistema host de una
+                Permite a los clientes interactuar con el sistema host de una
                 empresa a través de un teclado telefónico o mediante
                 reconocimiento de voz
               </P>

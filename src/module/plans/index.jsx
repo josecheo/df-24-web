@@ -37,7 +37,7 @@ const Plans = () => {
   return (
     <Wrapper id="planes">
       <PrincipalContainer>
-        <Text>Planes de Infraestructura Cloud</Text>
+        <Text>Planes de Infraestructura 24DCloud</Text>
         <P>Los precios son de acuerdo al requerimiento del cliente.</P>
         <Line />
         <ContainerCards width="90%">
