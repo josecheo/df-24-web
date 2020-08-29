@@ -153,7 +153,7 @@ const Plans = () => {
             <EspecialText>Garantía de reembolso </EspecialText>
             <EspecialP>
               Optimizando costos con soluciones simplifiacada, su inversion esta
-              a salvo
+              a salvo.
             </EspecialP>
           </EspecialCard>
 
@@ -168,7 +168,7 @@ const Plans = () => {
             )}
             <EspecialText>Mejor soporte </EspecialText>
             <EspecialP>
-              Especialistas que monitorean todos nuestros servicios
+              Especialistas que monitorean todos nuestros servicios.
             </EspecialP>
           </EspecialCard>
 
@@ -196,7 +196,7 @@ const Plans = () => {
             )}
             <EspecialText>Confianza 100% </EspecialText>
             <EspecialP>
-              Muchas empresas ya confian en nuestros servicios
+              Muchas empresas ya confian en nuestros servicios.
             </EspecialP>
           </EspecialCard>
         </ContainerCards>

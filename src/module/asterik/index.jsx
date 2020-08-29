@@ -54,7 +54,7 @@ const Asterik = () => {
                 Crea campañas para ventas, cobranzas, atención al cliente y
                 encuestas de manera personalizada.
               </P>
-              <P>Monitoreo en tiempo real</P>
+              <P>Monitoreo en tiempo real.</P>
             </PlandCardContainer>
             <Button
               mt="30px"
@@ -118,7 +118,7 @@ const Asterik = () => {
               <P>
                 Permite a los clientes interactuar con el sistema host de una
                 empresa a través de un teclado telefónico o mediante
-                reconocimiento de voz
+                reconocimiento de voz.
               </P>
             </PlandCardContainer>
             <Button

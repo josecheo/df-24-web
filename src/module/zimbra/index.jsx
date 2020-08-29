@@ -34,7 +34,7 @@ const Zimbra = () => {
   return (
     <Wrapper id="zimbra">
       <PrincipalContainer>
-        <Text>Zimbra Cloud Packs</Text>
+        <Text>Planes Zimbra Cloud</Text>
         <PS>Lleva tu organización a otro nivel</PS>
         <Line />
         <ContainerCards width="90%">

@@ -9,7 +9,7 @@ import icoSoporte from "../../assets/services/soporte.svg";
 
 export const ServicesCards = [
   {
-    Title: "Soluciones Telefonicas IP",
+    Title: "Telefonia IP",
     Description: "Lleva la comunicación de tu empresa al siguiente nivel.",
     descriptionsecond:
       "Centrales ON Premise/Cloud,  Telefonos IP, Call Center On Premise/Cloud y Holding Telefonico(IVR).",
