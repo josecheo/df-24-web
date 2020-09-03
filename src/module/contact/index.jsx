@@ -96,7 +96,10 @@ const Contact = () => {
             <H4>O dejanos tus datos</H4>
             <H5>y nosotros vamos a contactarte...</H5>
           </CallcenterText>
-          <Form onSubmit={() => console.log("Submit")}>
+          <Form
+            action="https://mail-24d.herokuapp.com/send-email"
+            method="post"
+          >
             <div>
               <H4>Nombre</H4>
               <Input type="text" id="username" name="username" required></Input>
