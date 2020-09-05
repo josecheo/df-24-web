@@ -91,7 +91,7 @@ const Asterik = () => {
           </PlanCard>
 
           <PlanCard background="#FFFFFF">
-            <Title>CONTA CENTER</Title>
+            <Title>CONTACT CENTER</Title>
             <ImgContainer src={contaccenter}></ImgContainer>
             <PlandCardContainer>
               <P>
