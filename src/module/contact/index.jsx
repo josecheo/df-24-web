@@ -97,8 +97,9 @@ const Contact = () => {
             <H5>y nosotros vamos a contactarte...</H5>
           </CallcenterText>
           <Form
-            action="https://mail-send-24d.herokuapp.com/send-mail"
-            method="POST"
+            action="https://node-js-send-email.herokuapp.com/send-email"
+            method="post"
+            enctype="text/plain"
           >
             <div>
               <H4>Nombre</H4>
