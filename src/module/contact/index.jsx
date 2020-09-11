@@ -103,7 +103,7 @@ const Contact = () => {
           >
             <div>
               <H4>Nombre</H4>
-              <Input type="text" id="username" name="username" required></Input>
+              <Input type="text" id="name" name="name" required></Input>
             </div>
             <div>
               <H4>Telefono</H4>
